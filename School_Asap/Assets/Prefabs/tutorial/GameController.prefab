@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8156670886159360612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8156670886159360634}
+  - component: {fileID: 8156670886159360635}
+  - component: {fileID: 8156670886159360633}
+  - component: {fileID: 1262378095755036829}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8156670886159360634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8156670886159360612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8156670886159360635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8156670886159360612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2295c1aed9c6c9439f3b1fbe62e0ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingameMenu: {fileID: 0}
+  deathMenu: {fileID: 0}
+--- !u!114 &8156670886159360633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8156670886159360612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d122ed6c17e76244faa1e19a2c5ace7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 728118973499589255, guid: b368132eb0bf4514d88b674bf049490b, type: 3}
+  LoseMenu: {fileID: 0}
+  StartPosition: {fileID: 0}
+  BloodPrefab:
+  - {fileID: 1640167731625824372, guid: 84b02376593584241ade419ce69e4cc8, type: 3}
+  - {fileID: 3016883821070688162, guid: 341c02752ea6ed64f9f1d74ab184b39b, type: 3}
+  - {fileID: 8189528288970314382, guid: 30bd0fab8d3a7cd499d767b1095bc160, type: 3}
+  VFXPrefab: {fileID: 3006611384221201577, guid: 10ca4b81675c9d24e97fcf130037f7f8, type: 3}
+  LifeTime: 120
+  RopeSwinging: {fileID: 5612109197747862417, guid: b368132eb0bf4514d88b674bf049490b, type: 3}
+  player: {fileID: 728118973499589255, guid: b368132eb0bf4514d88b674bf049490b, type: 3}
+--- !u!114 &1262378095755036829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8156670886159360612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3ec0bcde567b5449633e66b2b64cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrystalCounter: {fileID: 0}
